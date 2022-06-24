@@ -517,3 +517,40 @@ hr{
     }
 
 }
+
+
+@media(max-width: 460px) {
+
+    .container{
+        width: 350px;
+      
+    }
+
+    .footer_item{
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .button{
+        margin-left: 150px;
+    }
+
+    .footer_text{
+        margin-left: 160px;
+    }
+
+
+    input{
+        margin-left: 150px;
+    }
+
+
+    .box{
+        margin-left: -50px;
+    }
+
+
+}
