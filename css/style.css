@@ -209,8 +209,8 @@ body{
     width: 100%;
     background-image: url(/img/IMAGE\ \(12\).png);
     background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
+    height: 450px;
+    background-size: 100%;
     margin-top: 260px;
 
 }
@@ -362,6 +362,13 @@ hr{
         padding: 10px;
     }
 
+    .footer_text{
+     margin: auto;
+    }
+
+    input{
+        margin-top: 70px;
+    }
 
 }
 
@@ -376,12 +383,20 @@ hr{
     }
 
         .footer{
-            margin-top: 800px;
+            margin-top: 560px;
             background-size: cover;
+            padding: 10px;
         }
 
+        .footer_item input{
+         margin-top: 70px;
+            
+        }
 
-
+        .button{
+            margin-top: 50px;
+            margin-left: 300px;
+        }
 }
 
 @media(max-width: 860px) {
@@ -390,6 +405,16 @@ hr{
         width: 750px;
         
     }
+
+    .footer_item{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-wrap: wrap;    
+        background-size: cover;
+        margin-left: -100px;
+    }
+
 
 
 
@@ -403,7 +428,18 @@ hr{
         
     }
 
-  
+    .footer_item{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        flex-wrap: wrap;    
+        background-size: cover;
+        padding-right: 150px;
+    }
+
+    .footer_text{
+        margin-left: 300px;
+    }
 
 }
 
@@ -440,6 +476,20 @@ hr{
     .img_box{
         width: 100%;
     }
+
+
+    .footer{
+        margin-top: 1600px;
+    }
+
+
+    .footer_item{
+        padding-right: 210px;
+    }
+
+    input{
+        margin-left: 260px;
+    }
 }
 
 
@@ -448,6 +498,22 @@ hr{
     .container{
         width: 450px;
       
+    }
+
+    .footer_item{
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .button{
+        margin-left: 250px;
+    }
+
+    .footer_text{
+        margin-left: 250px;
     }
 
 }
